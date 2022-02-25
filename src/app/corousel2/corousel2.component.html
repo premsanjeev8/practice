@@ -1,0 +1,19 @@
+<div class="content-section implementation carousel-demo mx-5 ">
+
+  <div class=" pt-3 ">
+
+    <p-carousel [value]="lectures" styleClass="custom-carousel" [numVisible]="6" [numScroll]="1" [circular]="true"
+      [autoplayInterval]="0" [responsiveOptions]="responsiveOptions">
+      <ng-template let-image pTemplate="item">
+        <div class="card ml-3">
+          <img src="{{image.img}}" class=" imgofcarousel" alt="...">
+          <div class="item card-body">
+            <p class="fw-bold mt-2 ">{{image.para}}</p>
+            <p class="text-muted ">{{image.para2}}</p>
+            <p style="color: rgb(117, 106, 9);">{{image.rating}}</p>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.form-control{
+    width: 30rem;
+    border-radius: 50px;
+    border-color: black;
+    margin-left: 2rem;
+}
+.nav-item{
+    margin-left: 4.5rem;
+    
+}
+
+.nav-link
+{
+    color: #1c1d1f;
+}

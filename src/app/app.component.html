@@ -1,0 +1,32 @@
+<app-top></app-top>
+
+<app-nav1></app-nav1>
+
+<div class="container">
+    <h1>Let's start learning</h1>
+    <app-card1></app-card1>
+
+    <router-outlet></router-outlet>
+
+    <h1>What to learn next</h1>
+    <h4>Lectures for you — bite-size learning in minutes</h4>
+    <app-corousel1></app-corousel1>
+
+    <h4 class="mt-5">Top Courses in development</h4>
+    <app-corousel2 [lectures]="jsCourse1"></app-corousel2>
+
+    <h4 class="mt-5">Featured courses in Web Development</h4>
+    <app-corousel2 [lectures]="jsCourse2"></app-corousel2>
+
+    <h4>Our Top Pick for You</h4>
+    <app-hc></app-hc>
+
+    <h4 class="mt-5">People are Viewing</h4>
+    <app-corousel2 [lectures]="jsCourse3"></app-corousel2>
+
+    <h4 class="mt-5">Newest to Udemy Business</h4>
+    <app-corousel2 [lectures]="jsCourse4"></app-corousel2>
+
+</div>
+
+<app-footer></app-footer>
